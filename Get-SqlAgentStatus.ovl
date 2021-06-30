@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="SqlAgentJob.ExecutionResult" desiredValue="1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+	<Lookups>
+		<SingleInt state="Error" value="0">Failed</SingleInt>
+		<SingleInt state="Ok" value="1">Succeeded</SingleInt>
+		<SingleInt state="Warning" value="2">Retry</SingleInt>
+		<SingleInt state="None" value="3">Cancelled</SingleInt>
+		<SingleInt state="None" value="4">In progress</SingleInt>
+		<SingleInt state="Warning" value="5">Unknown</SingleInt>
+	</Lookups>
+</ValueLookup>
