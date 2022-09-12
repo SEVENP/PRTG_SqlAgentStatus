@@ -10,7 +10,7 @@ try
 	$result = $jobs | ForEach-Object {
 		@{
 			channel     = $_.Name;
-			value       = [Int32]$_.LastRunOutcome;  # Zie 
+			value       = [Int32]$_.LastRunOutcome;
 			valuelookup = 'SqlAgentJob.ExecutionResult';
 		}
 	}
